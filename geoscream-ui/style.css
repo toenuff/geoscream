@@ -1,0 +1,56 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+#mapbox {
+    float: left;
+    width: 75%;
+	height: calc(100% - 40px);
+}
+
+#feed {
+	float: left;
+	width: 24%;
+	height: calc(100% - 42px);
+	overflow: scroll;
+	padding-right: 10px;
+}
+
+#top {
+	line-height: 38px;
+    position: relative;
+	height: 38px;
+	background-color: lightblue
+	color: rgb(0,0,0);
+	text-align: center;
+	border-bottom: 2px solid gray;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	
+}
+
+#feedlist {
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+
+#main {
+    position: relative;
+}
+
+li{
+  margin: 10px 0;
+}
+
+ul{
+  padding-left: 25px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+

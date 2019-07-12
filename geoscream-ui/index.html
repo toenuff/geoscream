@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+  <script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="floater"></div>
+	<div id="top"> <h2>GeoScream: Find a disaster near you!</h2></div>
+	<div id="main">
+		<div id="mapbox">
+			<div id="map"></div>
+		</div>
+		<div id="feed">
+		<h4>
+			<ul id="feedlist"  style="list-style: none;">
+			</ul>
+		</h4>
+		</div>
+	</div>
+	<!-- Replace the value of the key parameter with your own API key. -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn5TU07R040YBRD-9ePpM8Noh-Z1NNVyw&callback=initMap" async defer></script>
+</body>
+
+</html>
